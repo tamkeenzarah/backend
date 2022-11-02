@@ -3,8 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 instructors = [
-    { 'firstName': "Muhammad Ali", 'lastName': "Kahoot"  },
-    { 'firstName': "Hasnain", 'lastName': "Zaib"  }
+    { 'firstName': "Muhammad Ali", 'lastName': "Kahoot"  }
 ]
 students = [
     { 'id': "1", 'firstName': "Abdul", 'lastName': "Raheem"  },
